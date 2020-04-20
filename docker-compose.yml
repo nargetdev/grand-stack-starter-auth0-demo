@@ -16,7 +16,7 @@ services:
   api:
     build: ./api
     ports:
-      - 4000:4000
+      - 4001:4001
     links:
     - neo4j
     depends_on:
